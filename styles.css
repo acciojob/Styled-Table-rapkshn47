@@ -1,6 +1,26 @@
 table{
 	background-color: white;
 	margin-left: 25%;
-	border: 5px red
+	border-collapse: collapse;
+	border-radius: 0.6em;
+	overflow: hidden;
+}
+
+thead{
+	color : white;
+	background-color: #566eb3;
+}
+th, td{
+	text-align: center;
+	padding: 8px 18px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.tab{
+	border-radius: 25%;
+}
+
+body{
+	background-color: #afb0b3;
+	font-size: 12px
 }
 
